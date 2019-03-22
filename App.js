@@ -36,7 +36,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <DisplayWeather />
+        <DisplayWeather data={this.state.weather} />
       </View>
     );
   }
