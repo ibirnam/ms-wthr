@@ -1,6 +1,7 @@
 import DisplayWeather from './Components/DisplayWeather'
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { WEATHER_API_KEY } from 'react-native-dotenv'
 
 export default class App extends React.Component {
 
@@ -14,7 +15,7 @@ export default class App extends React.Component {
   }
 
   loadWeather() {
-    const apikey = 'fdcb166dbd0f87c23ced63e735ec8438'
+    const apikey = WEATHER_API_KEY
     const { latitude, longitude } = this.state.location.coords
     const units = 'Imperial'
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apikey}&units=${units}`

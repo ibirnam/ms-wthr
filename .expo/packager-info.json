@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 40933,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
   "expoServerNgrokUrl": "https://v7-6wk.anonymous.wthr-native.exp.direct",
   "packagerNgrokUrl": "https://packager.v7-6wk.anonymous.wthr-native.exp.direct",
-  "ngrokPid": 40966
+  "ngrokPid": 22926
 }
